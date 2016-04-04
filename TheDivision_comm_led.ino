@@ -23,7 +23,8 @@ void loop() {
   for (int i = 0; i < NUMPIXELS; i++) {
 
     // pixels.Color takes RGB values, from 0,0,0 up to 255,255,255
-    strip_a.setPixelColor(i, strip_a.Color(255, 110, 14)); // The Division Orange from The Division Logo
+    //strip_a.setPixelColor(i, strip_a.Color(255, 110, 14)); // The Division Orange from The Division Logo
+    strip_a.setPixelColor(i, strip_a.Color(255, 50, 10)); // LED light (similar to logo and game)
     strip_a.show(); // This sends the updated pixel color to the hardware.
 
     delay(500); // delay for half a second
