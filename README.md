@@ -11,7 +11,9 @@ upload software
 wire it up
 enjoy
 
-V2 will use a Orangepi nano (515MB version)
+V2 will use a Orangepi nano (512MB version)
 
 Hooking up the same RGB led to it and a SDR radio. 
 Hopefully I can get a armbian build up and running that supports SDR and some fun audio for bootup then proceed to scanning and actual communication over bluetooth.
+Finding a LNA to fit inside the chasis will be difficult.
+For a SDR probably the RTL-SDR https://goo.gl/rFMz3e
